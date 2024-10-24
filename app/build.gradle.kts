@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lasalleapp"
+    namespace = "com.example.lasalle_app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.lasalleapp"
+        applicationId = "com.example.lasalle_app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -68,7 +68,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.coil.kt.coil.compose)
     implementation(libs.animated.navigation.bar)
-    implementation (libs.androidx.navigation.compose.v282)
-
-
+    implementation(libs.androidx.navigation.compose.v282)
 }

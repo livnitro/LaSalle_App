@@ -5,6 +5,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 
 @Composable
-fun GradesScreen(innerPadding:PaddingValues){
-    Text("grades")
+fun Calendar (innerPadding: PaddingValues){
+    Text("Calendar")
 }
